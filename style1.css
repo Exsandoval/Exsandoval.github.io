@@ -61,6 +61,8 @@
     background-color: whitesmoke;
   }
   .header-container {
+    resize: none;
+    overflow: hidden;
     position: absolute;
     width: 100vw;
     height: 80px;
