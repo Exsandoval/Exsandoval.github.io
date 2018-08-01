@@ -1,3 +1,4 @@
+
 @media (max-width: 800px) {
 .character-counter{
   font-size: 12px;
@@ -10,7 +11,6 @@
   margin-top: -25px;
 }
 .logo{
-  position: absolute;
   margin-top: 10px;
   height:30px;
   width:30px;
@@ -35,14 +35,14 @@
     background-size: cover;
     background-position: center;
     font-weight: 300;
-    position: absolute;
+    position: relative;
     height: 100vh;
     width: 100vw;
     background-color:white;
     bottom:0;
   }
   .center-container {
-    font-weight: bold;
+    font-weight: lighter;
     height: 100vh;
     width: 100vw;
     text-align: center;
@@ -107,4 +107,4 @@
     outline: none;
 
   }
-}
+} 

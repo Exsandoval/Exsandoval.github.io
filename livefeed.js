@@ -22,7 +22,7 @@ document.querySelector('.btn-submit').addEventListener('click', function() {
     //document.querySelector('.posts').textContent = post;
 
     document.querySelector('.input-field').value = '';
-    newPost();
+    newPost(); 
   }else{}
 
     /*var div = document.createElement("div");
