@@ -31,7 +31,7 @@
     align-items: center;
   }
   body {
-    position: static;
+    position: relative;
     margin: 0;
     background-size: cover;
     background-position: center;
