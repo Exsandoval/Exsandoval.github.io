@@ -74,8 +74,6 @@
     color:black;
   }
   textarea{
-    resize: none;
-    overflow: scroll;
     position: relative;
     margin-left: 50%;
     transform: translateX(-50%);
