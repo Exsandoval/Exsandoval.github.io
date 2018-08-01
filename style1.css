@@ -1,5 +1,5 @@
 
-@media (min-width : 200px) and (max-width: 2000px) {
+/*@media (min-width: 200px) and (max-width: 2000px) {
 /*.character-counter{
   font-size: 12px;
   position: absolute;
@@ -54,7 +54,7 @@
   .posts{
     position: static;
     margin-top: 10px;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
     width: 100vw;
     height: 50px;
@@ -105,4 +105,3 @@
     outline: none;
 
   }
-}
