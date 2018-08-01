@@ -11,7 +11,7 @@
   margin-top: -25px;
 }
 .logo{
-  position: absolute;
+  position: sticky;
   margin-top: 10px;
   height:30px;
   width:30px;
@@ -31,6 +31,7 @@
     align-items: center;
   }
   body {
+    position: static;
     margin: 0 !important;
     padding: 0 !important;
     background-size: cover;
