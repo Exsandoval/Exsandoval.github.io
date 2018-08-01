@@ -65,7 +65,7 @@
     background-color: whitesmoke;
   }
   .header-container {
-    position: fixed;
+    position: absolute;
     width: 100vw;
     height: 80px;
     background-color: white;
