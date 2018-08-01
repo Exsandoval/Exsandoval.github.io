@@ -48,14 +48,12 @@
   .center-container {
     position: absolute;
     font-weight: lighter;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
     text-align: center;
     background-color:whitesmoke;
     border-width: thin;
     border-color: whitesmoke;
-    left: 0;
-    right: 0;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
   }
