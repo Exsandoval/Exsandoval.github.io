@@ -1,5 +1,5 @@
 
-@media (max-width: 800px) {
+@media (min-width : 200px) and (max-width: 2000px) {
 /*.character-counter{
   font-size: 12px;
   position: absolute;
