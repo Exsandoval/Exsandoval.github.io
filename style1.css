@@ -34,7 +34,6 @@
     padding: 0 !important;
     background-size: cover;
     background-position: center;
-    font-family: 'Lato';
     font-weight: 300;
     position: relative;
     height: 100vh;
@@ -43,7 +42,6 @@
     bottom:0;
   }
   .center-container {
-    font-family: 'Lato';
     font-weight: bold;
     height: 100vh;
     width: 100vw;
@@ -56,7 +54,6 @@
   .posts{
     height: 100vh;
     margin-top: 10px;
-    font-family:'lato';
     font-size: 15px;
     text-align: center;
     width: 100vw;
@@ -79,7 +76,6 @@
     transform: translateX(-50%);
     color: #555;
     font-size: 18px;
-    font-family: 'Lato';
     text-align: center;
     padding-top: 0px;
     width: 200px;
@@ -91,7 +87,6 @@
     border-color: #F08080;
   }
   .input-field:focus{
-    font-family: 'Lato';
     height: 50px;
     outline: none;
     position: relative;
