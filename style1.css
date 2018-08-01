@@ -44,6 +44,7 @@
     background-color:white;
     bottom:0;
   }
+
   .center-container {
     position: absolute;
     font-weight: lighter;
@@ -53,6 +54,12 @@
     background-color:whitesmoke;
     border-width: thin;
     border-color: whitesmoke;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
   }
   .posts{
     position: static;
