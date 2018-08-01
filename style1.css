@@ -71,6 +71,9 @@
     padding: 0;
     color:black;
   }
+  textarea{
+    resize: none;
+  }
   .input-field {
     position: relative;
     margin-left: 50%;
