@@ -32,10 +32,6 @@
   }
   body {
     position: relative;
-    top: 0;
-    left:0;
-    right:0;
-    bottom:0;
     background-size: cover;
     background-position: center;
     font-weight: 300;
@@ -57,7 +53,6 @@
   }
   .posts{
     position: static;
-    height: 100vh;
     margin-top: 10px;
     font-size: 15px;
     text-align: center;
