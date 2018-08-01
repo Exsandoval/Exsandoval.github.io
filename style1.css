@@ -31,26 +31,28 @@
     align-items: center;
   }
   body {
+    position: static;
+    margin: 0;
     background-size: cover;
     background-position: center;
     font-weight: 300;
-    position: static;
     height: 100vh;
     width: 100vw;
     background-color:white;
     bottom:0;
   }
   .center-container {
+    position: absolute;
     font-weight: lighter;
     height: 100vh;
     width: 100vw;
     text-align: center;
     background-color:whitesmoke;
-    position: relative;
     border-width: thin;
     border-color: whitesmoke;
   }
   .posts{
+    position: relative;
     height: 100vh;
     margin-top: 10px;
     font-size: 15px;
