@@ -73,6 +73,7 @@
   }
   textarea{
     resize: none;
+    overflow: scroll;
     position: relative;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -88,6 +89,7 @@
     border-color: #F08080;
   }
   textarea:focus{
+    overflow: scroll;
     resize: none;
     height: 50px;
     outline: none;
