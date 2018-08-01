@@ -75,6 +75,7 @@
     resize: none;
   }
   .input-field {
+    resize: none;
     position: relative;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -90,6 +91,7 @@
     border-color: #F08080;
   }
   .input-field:focus{
+    resize: none;
     height: 50px;
     outline: none;
     border-width: thin;
