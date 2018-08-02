@@ -1,5 +1,5 @@
 
-/*@media (min-width: 200px) and (max-width: 2000px) {
+@media (max-width: 800px) {
 /*.character-counter{
   font-size: 12px;
   position: absolute;
@@ -31,7 +31,8 @@
     align-items: center;
   }
   body {
-    position: relative;
+    position: static;
+    margin: 0;
     background-size: cover;
     background-position: center;
     font-weight: 300;
@@ -40,7 +41,6 @@
     background-color:white;
     bottom:0;
   }
-
   .center-container {
     position: absolute;
     font-weight: lighter;
@@ -52,18 +52,19 @@
     border-color: whitesmoke;
   }
   .posts{
-    position: static;
+    position: relative;
+    height: 100vh;
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
     width: 100vw;
     height: 50px;
     background-color: whitesmoke;
   }
   .header-container {
-    resize: none;
     overflow: hidden;
-    position: absolute;
+    resize: none;
+    position: fixed;
     width: 100vw;
     height: 80px;
     background-color: white;
@@ -73,29 +74,6 @@
     padding: 0;
     color:black;
   }
-  /*textarea{
-    position: relative;
-    margin-left: 50%;
-    transform: translateX(-50%);
-    color: #555;
-    font-size: 18px;
-    text-align: center;
-    width: 200px;
-    height: 25px;
-    border-radius: 5%;
-    margin-bottom: 17px;
-    margin-top: -60px;
-    border-width: thin;
-    border-color: #F08080;
-  }
-  textarea:focus{
-    overflow: scroll;
-    resize: none;
-    height: 50px;
-    outline: none;
-    border-width: thin;
-    border-color: #F08080;
-  }*/
   .input-field {
     position: relative;
     margin-left: 50%;
@@ -110,7 +88,6 @@
     margin-top: -60px;
     border-width: thin;
     border-color: #F08080;
-    resize: none;
   }
   .input-field:focus{
     height: 50px;
@@ -131,3 +108,4 @@
     outline: none;
 
   }
+}
