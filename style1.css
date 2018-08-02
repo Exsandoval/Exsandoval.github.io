@@ -51,7 +51,7 @@
   .header-container {
     overflow: scroll;
     resize: none;
-    position: fixed;
+    position: relative;
     width: 100vw;
     height: 80px;
     background-color: white;
