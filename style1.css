@@ -1,14 +1,4 @@
 @media (max-width: 2000px) {
-///*.character-counter{
-  font-size: 12px;
-  position: absolute;
-  height:10px;
-  width:10px;
-  margin-left: 73%;
-  background-color:none;
-  color: black;
-  margin-top: -25px;
-}*/
 .logo{
   position: static;
   margin-top: 0px;
