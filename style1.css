@@ -97,10 +97,22 @@
     border-color: #F08080;
   }*/
   .input-field {
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    font-size: 18px;
+    text-align: center;
+    width: 200px;
+    height: 25px;
+    border-radius: 5%;
+    margin-bottom: 17px;
+    margin-top: -60px;
+    border-width: thin;
+    border-color: #F08080;
     resize: none;
   }
   .input-field:focus{
-    resize: none;
     height: 50px;
     outline: none;
     border-width: thin;
