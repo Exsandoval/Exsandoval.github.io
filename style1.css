@@ -18,7 +18,6 @@
   transform: translateX(-50%);
   margin-bottom: 20px;
 }
-
   * {
     margin: 0;
     padding: 0;
@@ -41,7 +40,7 @@
     bottom:0;
   }
   .center-container {
-    position: relative;
+    position: static;
     font-weight: lighter;
     height: 100vh;
     width: 100vw;
