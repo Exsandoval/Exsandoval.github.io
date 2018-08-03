@@ -50,7 +50,7 @@
     background-color: whitesmoke;
   }
   .header-container {
-    overflow: visible;
+    overflow: hidden;
     resize: none;
     position: ;
     width: 100vw;
