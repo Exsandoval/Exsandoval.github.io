@@ -39,10 +39,11 @@ document.querySelector('.btn-submit').addEventListener('click', function() {
 
 function newPost() {
   var div = document.createElement("div");
-  div.style.width = "100vw";
-  div.style.height = "50px";
-  div.style.background = "whitesmoke";
-  div.style.color = "black";
+  div.class = 'posts'
+  //div.style.width = "100vw";
+  //div.style.height = "50px";
+  //div.style.background = "whitesmoke";
+  //div.style.color = "black";
   div.textContent = post;
 
   document.getElementById('feed').prepend(div);
