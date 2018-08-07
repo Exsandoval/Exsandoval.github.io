@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 @media only screen and (min-width: 400px) and (max-width: 2000px) {
+||||||| merged common ancestors
+@media only screen and (min-width: 400px) and (max-width: 1000px) {
+=======
+@media only screen and (min-width: 200px) and (max-width: 1000px) {
+>>>>>>> c341effda006e8077a0dfa42553dc507c1150df6
 .logo{
   position: static;
   margin-top: 0px;
