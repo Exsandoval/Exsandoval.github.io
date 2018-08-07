@@ -104,106 +104,106 @@
 }
   @media only screen and (min-width: 1001px) and (max-width: 3000px) {
     .logo{
-      position: static;
-      margin-top: 0px;
-      height:50px;
-      width:50px;
-      margin-left: 50%;
-      transform: translateX(-50%);
-      margin-bottom: 20px;
-    }
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+       position:relative;
+       margin-top: 0px;
+       height: 60px;
+       width: 60px;
+       margin-left: 10%;
+       margin-top: 0px;
+     }
+       * {
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+       }
 
-      a {
-        margin-left: 45%;
-        align-items: center;
-      }
-      body {
-        padding-top: 0px;
-        position: static;
-        margin-top: 40px;
-        background-size: cover;
-        background-position: center;
-        font-weight: 300;
-        height: 100vh;
-        width: 100vw;
-        background-color:#79554800;
-        bottom: 0;
-      }
-      .center-container {
-        margin-left: 25%;
-        margin-top: 30px;
-        font-weight: lighter;
-        height: 100vh;
-        width: 50vw;
-        text-align: center;
-        background-color:whitesmoke;
-        border-width: thin;
-        border-color: whitesmoke;
-      }
-      .posts{
-        position: relative;
-        height: 100vh;
-        margin-top: 10px;
-        font-size: 15px;
-        text-align: center;
-        width: 33vw;
-        height: 50px;
-        background-color: whitesmoke;
-        margin-left: 50px;
-      }
-      .header-container {
-        overflow: hidden;
-        resize: none;
-        position: ;
-        width: 100vw;
-        height: 80px;
-        background-color: #ffffff00;
-        padding: 0;
-        margin-top: 0;
-        padding: 0;
-        color:black;
-      }
-      .input-field {
-        resize: none;
-        overflow: scroll;
-        position: relative;
-        margin-left: 50%;
-        transform: translateX(-50%);
-        color: #555;
-        font-size: 18px;
-        text-align: center;
-        width: 200px;
-        height: 50px;
-        border-radius: 5%;
-        margin-top: -60px;
-        border-width: thin;
-        border-color: #F08080;
-      }
-      .input-field:focus{
-        margin-bottom: 17px;
-        overflow: scroll;
-        height: 100px;
-        resize: none;
-        outline: none;
-        border-width: thin;
-        border-color: #F08080;
-      }
-      .btn-submit {
-        position: static;
-        color: white;
-        background-color:#F08080;
-        border-color: #F08080;
-        width: 25px;
-        height: 25px;
-        border-radius: 100%;
-        margin-left: 70%;
-        margin-bottom: 0;
-        cursor: pointer;
-        outline: none;
-      }
+       a {
+         margin-left: 45%;
+         align-items: center;
+       }
+       body {
+         padding-top: 0px;
+         position: static;
+         margin-top: 40px;
+         background-size: cover;
+         background-position: center;
+         font-weight: 300;
+         height: 100vh;
+         width: 100vw;
+         background-color:#79554800;
+         bottom: 0;
+       }
+       .center-container {
+         position:relative
+         text-align: center;
+         margin-left: 25%;
+         margin-top: 30px;
+         font-weight: lighter;
+         height: 100vh;
+         width: 50vw;
+         text-align: center;
+         background-color:whitesmoke;
+         border-width: thin;
+         border-color: whitesmoke;
+       }
+
+       .header-container {
+         overflow: hidden;
+         resize: none;
+         position: ;
+         width: 100vw;
+         height: 100px;
+         background-color: #ffffff00;
+         padding: 0;
+         margin-top: 0;
+         padding: 0;
+         color:black;
+       }
+         .posts{
+         position:relative;
+         height: 100vh;
+         margin-top: 10px;
+         font-size: 15px;
+         text-align: center;
+         width: 50vw;
+         margin-right: 100px;
+         background-color: #F44336;
+       }
+       .input-field {
+         resize: none;
+         overflow: scroll;
+         position: relative;
+         margin-left: 50%;
+         transform: translateX(-50%);
+         color: #555;
+         font-size: 18px;
+         text-align: center;
+         width: 200px;
+         height: 50px;
+         border-radius: 5%;
+         border-width: thin;
+         border-color: #F08080;
+       }
+       .input-field:focus{
+         margin-bottom: 0px;
+         overflow: scroll;
+         height: 60px;
+         resize: none;
+         outline: none;
+         border-width: thin;
+         border-color: #F08080;
+       }
+       .btn-submit {
+         position: relative;
+         color: white;
+         background-color:#F08080;
+         border-color: #F08080;
+         width: 30px;
+         height: 30px;
+         border-radius: 100%;
+         margin-left: 50%;
+         margin-bottom: 0;
+         cursor: pointer;
+         outline: none;
+       }
 }
