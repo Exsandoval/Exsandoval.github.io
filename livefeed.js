@@ -6,9 +6,9 @@
 -after someone posts the input is cleared and someone else can post
 */
 
-(function() {
+
   var post, input, characters, maxChar;
-  
+
   function onPositionReceived(position){
     console.log(position);
   }
@@ -59,6 +59,3 @@
 
     document.getElementById('feed').prepend(div);
   }
-
-
-}());
