@@ -32,20 +32,7 @@
 
       document.querySelector('.input-field').value = '';
       newPost();
-    }else{
-
     }
-
-      /*var div = document.createElement("div");
-      div.style.width = "100vw";
-      div.style.height = "50px";
-      div.style.background = "whitesmoke";
-      div.style.color = "black";
-      div.textContent = post;
-
-      document.getElementById('feed').prepend(div);
-  */
-    };
   });
 
   function newPost() {
