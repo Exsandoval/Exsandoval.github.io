@@ -12,8 +12,11 @@
   function onPositionReceived(position){
     console.log(position);
   }
+  function onPositionNotReceived(positionError){
+    console.log(positionError);
+  }
   if(navigator.geolocation){
-    navigator.geolocation.getCurrentPosition(onPositionReceived);
+    navigator.geolocation.watchPosition(onPositionReceived, onPositionNotReceived, {timeout: 0});
   }
   //maxChar = 150;
   //check if there is any input in the box
