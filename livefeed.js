@@ -16,7 +16,7 @@
     console.log(positionError);
   }
   if(navigator.geolocation){
-    navigator.geolocation.watchPosition(onPositionReceived, onPositionNotReceived, {timeout: 0});
+    navigator.geolocation.watchPosition(onPositionReceived, onPositionNotReceived, {timeout: 5});
   }
   //maxChar = 150;
   //check if there is any input in the box
