@@ -41,9 +41,9 @@
       if (event.keycode === 13 || event.which === 13) {
         addItem();
       }
-
+});
     //read the input field
-    var addItem = function(){
+    function addItem(){
       input = document.querySelector('.input-field').value;
       //characters = input.length;
       //console.log(characters);
@@ -87,4 +87,3 @@
 
     document.getElementById('feed').prepend(div);
   }
-});
