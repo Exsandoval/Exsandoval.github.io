@@ -23,7 +23,7 @@
      x.innerHTML += "<br />"
      x.innerHTML += "Longitude = " + position.coords.longitude;
 
-  var locAPI = "http://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&sensor=true";
+  var locAPI = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&sensor=true";
   $.get({
     url: locAPI,
     success: function(data){
