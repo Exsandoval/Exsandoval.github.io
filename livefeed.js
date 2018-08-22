@@ -39,7 +39,7 @@
   document.querySelector('.btn-submit').addEventListener('click', addItem);
     document.addEventListener('keypress', function(event) {
       if (event.keycode === 13 || event.which === 13) {
-        AddItem();
+        addItem();
       }
 
     //read the input field
