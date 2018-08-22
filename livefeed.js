@@ -23,14 +23,13 @@
      x.innerHTML = "latitude = " + position.coords.latitude;
      x.innerHTML += "<br />"
      x.innerHTML += "Longitude = " + position.coords.longitude;
-
-  var locAPI = "https://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&sensor=true";
+  var locAPI = "https://www.mapquestapi.com/geocoding/v1/reverse?key=SAGajtAzMGvp01ZSwAH88C03epaqEjNG&location="+position.coords.latitude+","+position.coords.longitude+"&includeRoadMetadata=true&includeNearestIntersection=true";
   $.get({
     url: locAPI,
     success: function(data){
       console.log(data);
-      x.innerHTML = data.results[1].address_components[0].long_name + ', ';
-      x.innerHTML += data.results[1].address_components[2].long_name;
+      x.innerHTML = data.results[1].locations.adminArea5 + ', ';
+      x.innerHTML += data.results[1].locations.adminArea3;
     }
   });
 
@@ -90,3 +89,6 @@
   }
 
 }());
+//x.innerHTML = data.results[1].address_components[0].long_name + ', ';
+//x.innerHTML += data.results[1].address_components[2].long_name;
+//"https://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&sensor=true";
