@@ -28,8 +28,8 @@
     url: locAPI,
     success: function(data){
       console.log(data);
-      x.innerHTML = data.results[1].locations.adminArea5 + ', ';
-      x.innerHTML += data.results[1].locations.adminArea3;
+      x.innerHTML = data.results[0].locations[0].adminArea5 + ', ';
+      x.innerHTML += data.results[0].locations[0].adminArea3;
     }
   });
 
