@@ -1,5 +1,6 @@
 
 @media only screen and (min-width: 200px) {
+
 .logo{
   position: static;
   margin-top: 0px;
@@ -101,7 +102,7 @@
 
   }
 }
-  @media only screen and (min-width: 1001px) and (max-width: 3000px) {
+/*  @media only screen and (min-width: 1001px) and (max-width: 3000px) {
     .logo{
        position:relative;
        margin-top: 0px;
