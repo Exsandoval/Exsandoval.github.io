@@ -1,10 +1,13 @@
 
 @media only screen and (min-width: 200px) {
+  #output{
+  }
 .location-container{
   width:100vw;
-  height: 50px;
-  background-color: black;
-
+  height: 12px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .logo{
