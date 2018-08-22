@@ -6,7 +6,8 @@
 -after someone posts the input is cleared and someone else can post
 */
 
-
+(function() {
+  'use strict';
   var post, input, characters, maxChar;
   var x = document.getElementById('output');
     if(navigator.geolocation){
@@ -87,3 +88,5 @@
 
     document.getElementById('feed').prepend(div);
   }
+
+}());
