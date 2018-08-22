@@ -10,7 +10,7 @@
   var post, input, characters, maxChar;
   var x = document.getElementById('output');
     if(navigator.geolocation){
-      navigator.geolocation.getCurrentPosition(onPositionReceived,onPositionNotReceived,{timeout: 40});
+      navigator.geolocation.getCurrentPosition(onPositionReceived,onPositionNotReceived,{timeout: 5000});
     }else{
       x.innerHTML = 'browser doesn\'t support';
     }
