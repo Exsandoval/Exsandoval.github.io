@@ -1,7 +1,9 @@
 
 @media only screen and (min-width: 200px) {
   #output{
-  }
+   font-size:20px;
+   font-weight: bold;
+ }
 .location-container{
   width:100vw;
   height: 12px;
