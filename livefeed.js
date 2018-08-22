@@ -10,7 +10,7 @@
   var post, input, characters, maxChar;
   var x = document.getElementById('output');
     if(navigator.geolocation){
-      navigator.geolocation.getCurrentPosition(onPositionReceived,onPositionNotReceived);
+      navigator.geolocation.getCurrentPosition(onPositionReceived,onPositionNotReceived,{timeout: 20});
     }else{
       x.innerHTML = 'browser doesn\'t support';
     }
@@ -41,7 +41,7 @@
       if (event.keycode === 13 || event.which === 13) {
         AddItem();
       }
-    });
+
     //read the input field
     var addItem = function(){
       input = document.querySelector('.input-field').value;
@@ -87,3 +87,4 @@
 
     document.getElementById('feed').prepend(div);
   }
+});
