@@ -36,9 +36,31 @@
    }
   //maxChar = 150;
   //check if there is any input in the box
-  document.querySelector('.btn-submit').addEventListener('click', function() {
+  document.querySelector('.btn-submit').addEventListener('click', addItem);
+    document.addEventListener('keypress', function(event) {
+      if (event.keycode === 13 || event.which === 13) {
+        AddItem();
+      }
+    });
     //read the input field
-    input = document.querySelector('.input-field').value;
+    var addItem = function(){
+      input = document.querySelector('.input-field').value;
+      //characters = input.length;
+      //console.log(characters);
+      //check if there is something in it and then set it = to post
+      if (input) {
+        //check how many characters are in the input
+      //  if(characters <= maxChar){
+        post = input;
+        //update the ui to show the post
+        //document.querySelector('.posts').textContent = post;
+
+        document.querySelector('.input-field').value = '';
+        newPost();
+      }
+
+    }
+    /*input = document.querySelector('.input-field').value;
     //characters = input.length;
     //console.log(characters);
     //check if there is something in it and then set it = to post
@@ -51,8 +73,8 @@
 
       document.querySelector('.input-field').value = '';
       newPost();
-    }
-  });
+    }*/
+  //});
 
   function newPost() {
     var div = document.createElement("div");
