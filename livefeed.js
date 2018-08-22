@@ -8,16 +8,32 @@
 
 
   var post, input, characters, maxChar;
+  var x = document.getElementById('output');
+    if(navigator.geolocation){
+      navigator.geolocation.getCurrentPosition(onPositionReceived,onPositionNotReceived);
+    }else{
+      x.innerHTML = 'browser doesn\'t support';
+    }
 
-  function onPositionReceived(position){
-    console.log(position);
-  }
   function onPositionNotReceived(positionError){
     console.log(positionError);
   }
-  if(navigator.geolocation){
-    navigator.geolocation.watchPosition(onPositionReceived, onPositionNotReceived, {timeout: 5});
-  }
+   function onPositionReceived(position){
+     x.innerHTML = "latitude = " + position.coords.latitude;
+     x.innerHTML += "<br />"
+     x.innerHTML += "Longitude = " + position.coords.longitude;
+
+  var locAPI = "http://maps.googleapis.com/maps/api/geocode/json?latlng="+position.coords.latitude+","+position.coords.longitude+"&sensor=true";
+  $.get({
+    url: locAPI,
+    success: function(data){
+      console.log(data);
+      x.innerHTML = data.results[1].address_components[0].long_name + ', ';
+      x.innerHTML += data.results[1].address_components[2].long_name;
+    }
+  });
+
+   }
   //maxChar = 150;
   //check if there is any input in the box
   document.querySelector('.btn-submit').addEventListener('click', function() {

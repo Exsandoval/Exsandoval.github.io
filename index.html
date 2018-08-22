@@ -9,8 +9,10 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
+
   <div class="header-container">
     <img class="logo" src="logo.png" alt="logo"></img>
+    <div id="output"></div>
     <button class="btn-submit"><i class="material-icons">add</i></button>
     <textarea  rows="1" cols="10" placeholder="What's going on?" class="input-field" type="text" id='current-thought'></textarea>
     </div>
@@ -18,5 +20,7 @@
       <div class="posts" id='feed'></div>
 </body>
 </div>
+<script
+src="https://code.jquery.com/jquery-2.2.4.js"></script>
 <script src="livefeed.js"></script>
 </html>
