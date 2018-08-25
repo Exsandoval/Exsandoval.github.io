@@ -1,28 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta charset="utf-8">
-  <title>LF: where the world is</title>
-  <link type="text/css" rel="stylesheet" href="style1.css">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
-<body>
+<html lang="en" dir="ltr">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <div class="header-container">
-    <img class="logo" src="logo.png" alt="logo"></img>
-    <button class="btn-submit"><i class="material-icons">add</i></button>
-    <textarea  rows="1" cols="10" placeholder="What's going on?" class="input-field" type="text" id='current-thought'></textarea>
-    <div class="posts" id='feed'></div>
+<head>
+  <meta charset="utf-8">
+  <title>Rabbit Hole</title>
+  <link type="text/css" rel="stylesheet" href="app.css">
+</head>
+
+<body>
+  <div class="title">Down the Rabbit Hole
+  </div>
+<div class="container">
+    <div class="rules">
+      <h4>Rules:
+          <br>
+           THERE ARE NO RULES!
+           <br>
+           LET THE UNIVERSE GUIDE YOU!
+          <br>
+        </h4>
+
+      <p>
+        1. Roll the numbered dice to generate a number,
+        <br> the number you roll is the number to look out for during the walk.
+        <br> There's something special about that number.
+        <br>
+        <br> 2. Pick any two dice and roll them
+        <br> to determine which direction to walk
+        <br> or what to do if it involves the word dice.
+        <br>
+        <br> you may ask the 8 ball if you should roll both
+        <br> numbered dice for example
+        <br>
+        <br> 3. Example: if there are 3 directions to go
+        <br> rolling both numbered dice generates the number '8'.
+        <br> direction 1 would be any number between 1-4
+        <br> direction 2 would be 5-8 and
+        <br> direction 3 direction would be 9-12.
+        <br> or if the word dice says
+        <br> 'follow the white rabbit'
+        <br> and the other dice says '3' then you follow the white rabbit
+        <br> for 3 minutes, try not to make it obvious or get caught.
+        <br>
+        <br> Always be cautious and respectful
+      </p>
     </div>
-    <div class="location-container">
-    <div id="output"></div>
+<div class="contentcontainer">
+    <div class="ballcontainer">
+      <img src="8ball-1.png" alt="8ball" class="ball1">
+      <button class="ballbutton">Ask</button>
     </div>
-    <div class="center-container">LIVE FEED
-</body>
+    <div class="numberdice1container">
+      <img src="dice-5.png" alt="Dice" class="dice">
+      <button class="btn-roll">Roll</button>
+    </div>
+    <div class="numberdice2container">
+      <img src="dice-5.png" alt="Dice" class="dice1">
+      <button class="btn-roll1">Roll</button>
+    </div>
+    <div class="worddicecontainer">
+      <img src="word-1.png" alt "Dice" class="word1">
+    </div>
+    <button class="btn-roll2">Roll</button>
 </div>
-<script
-src="https://code.jquery.com/jquery-2.2.4.js"></script>
-<script src="livefeed.js"></script>
+</div>
+  <script src="syn.js"></script>
+
+</body>
+
 </html>
