@@ -97,7 +97,7 @@ html,body{
   height: 5vh;
 }
 .ballcontainer{
-  width:200px;
+  width:100vw;
   height: 200px;
   margin-bottom: 90px;
 }
@@ -114,16 +114,16 @@ html,body{
   background-color: whitesmoke;
 }
 .numberdice1container{
-  width:200px;
+  width:100vw;
   height:200px;
 }
 .numberdice2container{
-  width:200px;
+  width:100vw;
   height:200px;
 }
 
 .worddicecontainer{
-  width:200px;
+  width:100vw;
   height:200px;
   margin-bottom: -30px;
 }
