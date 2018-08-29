@@ -1,10 +1,9 @@
 div{
   overflow-y: scroll;
-  float: left;
 }
 
 .contentcontainer{
-  height:70vh;
+  height:80vh;
   width: 100vw;
   display: grid;
   justify-content: center;
