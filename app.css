@@ -37,7 +37,6 @@ html,body{
   margin-left: 5%;
   height:80px;
   width:100vw;
-  border-radius: 10px;
   background-color: whitesmoke;
 }
 .btn-roll1{
@@ -45,7 +44,6 @@ html,body{
   margin-left: 5%;
   height:80px;
   width:100vw;
-  border-radius: 10px;
   background-color: whitesmoke;
 }
 .btn-roll2{
@@ -53,7 +51,6 @@ html,body{
   margin-left: 5%;
   height:80px;
   width:100vw;
-  border-radius: 10px;
   background-color: whitesmoke;
 }
 .title{
@@ -98,11 +95,11 @@ html,body{
 }
 .ballcontainer{
   width:100vw;
-  height: 200px;
+  height: auto;
   margin-bottom: 90px;
 }
 .ball1{
-  height:100px;
+  height:150px;
   width:100px;
 }
 .ballbutton{
@@ -110,21 +107,20 @@ html,body{
   margin-left: 5%;
   height:80px;
   width:100vw;
-  border-radius: 10px;
   background-color: whitesmoke;
 }
 .numberdice1container{
   width:100vw;
-  height:400px;
+  height:auto;
 }
 .numberdice2container{
   width:100vw;
-  height:400px;
+  height:auto;
 }
 
 .worddicecontainer{
   width:100vw;
-  height:400px;
+  height:auto;
   margin-bottom: -30px;
 }
 .word1{
