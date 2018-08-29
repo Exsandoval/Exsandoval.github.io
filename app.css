@@ -1,5 +1,5 @@
 div{
-  overflow-y: scroll;
+/*  overflow-y: scroll;*/
   float: left;
 }
 
@@ -19,7 +19,7 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: visible;
 }
 .dice{
   top: 20%;
