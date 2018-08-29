@@ -4,7 +4,7 @@ div{
 }
 
 .contentcontainer{
-  height:100vh;
+  height:70vh;
   width: 100vw;
   display: grid;
   justify-content: center;
@@ -115,16 +115,16 @@ html,body{
 }
 .numberdice1container{
   width:100vw;
-  height:200px;
+  height:400px;
 }
 .numberdice2container{
   width:100vw;
-  height:200px;
+  height:400px;
 }
 
 .worddicecontainer{
   width:100vw;
-  height:200px;
+  height:400px;
   margin-bottom: -30px;
 }
 .word1{
