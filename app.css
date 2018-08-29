@@ -23,14 +23,14 @@ html,body
 .dice{
   top: 20%;
   position: relative;
-  height:200px;
-  width:200px;
+  height:100px;
+  width:100px;
 }
 .dice1{
   top: 20%;
   position: relative;
-  height:200px;
-  width:200px;
+  height:100px;
+  width:100px;
 }
 .btn-roll{
   margin-top: 20%;
@@ -89,21 +89,21 @@ html,body
   color: white;
   overflow-y: scroll;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   position: relative;
-  text-align: justify;
+  text-align: left;
   width: 100vw;
   height: 50vh;
 }
 .ballcontainer{
-  width:200px;
-  height: 200px;
+  width:100px;
+  height: 100px;
   margin-bottom: 90px;
 }
 .ball1{
-  height:200px;
-  width:200px;
+  height:100px;
+  width:100px;
 }
 .ballbutton{
   margin-top: -2%;
@@ -114,21 +114,21 @@ html,body
   background-color: whitesmoke;
 }
 .numberdice1container{
-  width:200px;
-  height:200px;
+  width:100px;
+  height:100px;
   margin-bottom: 90px;
 }
 .numberdice2container{
-  width:300px;
-  height:300px;
+  width:100px;
+  height:100px;
   margin-bottom: 90px;
 }
 
 .worddicecontainer{
-  width:200px;
-  height: 200px;
+  width:100px;
+  height: 100px;
 }
 .word1{
-  height:200px;
-  width:200px;
+  height:100px;
+  width:100px;
 }
