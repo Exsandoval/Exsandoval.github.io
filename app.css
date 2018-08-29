@@ -95,11 +95,11 @@ html,body{
 }
 .ballcontainer{
   width:100vw;
-  height: auto;
+  height: 180px;
   margin-bottom: 90px;
 }
 .ball1{
-  height:150px;
+  height:100px;
   width:100px;
 }
 .ballbutton{
@@ -111,11 +111,11 @@ html,body{
 }
 .numberdice1container{
   width:100vw;
-  height:auto;
+  height:180px;
 }
 .numberdice2container{
   width:100vw;
-  height:auto;
+  height:180px;
 }
 
 .worddicecontainer{
