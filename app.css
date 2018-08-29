@@ -33,6 +33,7 @@ html,body
   height:80px;
   width:100px;
   border-radius: 10px;
+  background-color: whitesmoke;
 }
 .btn-roll1{
   margin-top: 20%;
@@ -40,6 +41,7 @@ html,body
   height:80px;
   width:100px;
   border-radius: 10px;
+  background-color: whitesmoke;
 }
 .btn-roll2{
   margin-top:-32%;
@@ -47,6 +49,7 @@ html,body
   height:80px;
   width:100px;
   border-radius: 10px;
+  background-color: whitesmoke;
 }
 .title{
   color: white;
@@ -103,6 +106,7 @@ html,body
   height:80px;
   width:100px;
   border-radius: 10px;
+  background-color: whitesmoke;
 }
 .numberdice1container{
   width:200px;
