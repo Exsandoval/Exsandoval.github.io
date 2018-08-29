@@ -9,6 +9,7 @@ div{
   justify-content: center;
   grid-column-gap: 10px;
   grid-row-gap: 100px;
+  overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
 html,body{
