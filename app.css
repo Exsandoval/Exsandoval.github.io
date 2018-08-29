@@ -1,3 +1,11 @@
+div{
+  overflow-y: scroll;
+  float: left;
+}
+
+.touch {
+  -webkit-overflow-scrolling: touch;
+}
 .contentcontainer{
   height:100vh;
   width: 100vw;
