@@ -3,9 +3,6 @@ div{
   float: left;
 }
 
-.touch {
-  -webkit-overflow-scrolling: touch;
-}
 .contentcontainer{
   height:100vh;
   width: 100vw;
@@ -13,6 +10,7 @@ div{
   justify-content: center;
   grid-column-gap: 10px;
   grid-row-gap: 100px;
+  -webkit-overflow-scrolling: touch;
 }
 html,body
 {
@@ -21,7 +19,6 @@ html,body
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
-    overflow-y: scroll;
 }
 .dice{
   top: 20%;
