@@ -93,7 +93,7 @@ html,body
   font-weight: bold;
   position: relative;
   width: 100vw;
-  height: 20vh;
+  height: 5vh;
 }
 .ballcontainer{
   width:300px;
@@ -124,8 +124,9 @@ html,body
 }
 
 .worddicecontainer{
-  width:300px;
-  height:300px;
+  width:200px;
+  height:200px;
+  margin-bottom: -30px;
 }
 .word1{
   height:100px;
