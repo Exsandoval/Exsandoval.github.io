@@ -1,11 +1,5 @@
 div{
-<<<<<<< HEAD
 
-||||||| merged common ancestors
-  overflow-y: scroll;
-=======
-  
->>>>>>> 9dce2d3a2b85a1933c7eb9f4c435b15be82ab5cd
   align-items: center;
 }
 
@@ -100,25 +94,11 @@ html,body{
 }
 .ballcontainer{
   width:100vw;
-<<<<<<< HEAD
   height: 180px;
-||||||| merged common ancestors
-  height: auto;
-  margin-bottom: 90px;
-=======
-  height: 180px;
-  margin-bottom: 90px;
->>>>>>> 9dce2d3a2b85a1933c7eb9f4c435b15be82ab5cd
 }
 .ball1{
-<<<<<<< HEAD
   margin-left:40%;
   height:100px;
-||||||| merged common ancestors
-  height:150px;
-=======
-  height:100px;
->>>>>>> 9dce2d3a2b85a1933c7eb9f4c435b15be82ab5cd
   width:100px;
 }
 .ballbutton{
@@ -134,14 +114,8 @@ html,body{
 }
 .numberdice2container{
   width:100vw;
-<<<<<<< HEAD
   height:180px;
   margin-bottom:140px;
-||||||| merged common ancestors
-  height:auto;
-=======
-  height:180px;
->>>>>>> 9dce2d3a2b85a1933c7eb9f4c435b15be82ab5cd
 }
 
 .worddicecontainer{
