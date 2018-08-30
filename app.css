@@ -1,15 +1,12 @@
 div{
-  overflow-y: scroll;
+
   align-items: center;
 }
 
 .contentcontainer{
   height:85vh;
   width: 100vw;
-  display: grid;
-  justify-content: center;
-  grid-column-gap: 10px;
-  grid-row-gap: 100px;
+  overflow-y:scroll;
   -webkit-overflow-scrolling: touch;
 }
 html,body{
@@ -22,12 +19,14 @@ html,body{
 }
 .dice{
   top: 20%;
+  margin-left:40%;
   position: relative;
   height:100px;
   width:100px;
 }
 .dice1{
-  top: 20%;
+  top: 55%;
+  margin-left:40%;
   position: relative;
   height:100px;
   width:100px;
@@ -40,14 +39,14 @@ html,body{
   background-color: whitesmoke;
 }
 .btn-roll1{
-  margin-top: 20%;
+  margin-top:30%;
+  margin-bottom:60px;
   margin-left: 5%;
   height:80px;
   width:100vw;
   background-color: whitesmoke;
 }
 .btn-roll2{
-  margin-top:-32%;
   margin-left: 5%;
   height:80px;
   width:100vw;
@@ -95,11 +94,11 @@ html,body{
 }
 .ballcontainer{
   width:100vw;
-  height: auto;
-  margin-bottom: 90px;
+  height: 180px;
 }
 .ball1{
-  height:150px;
+  margin-left:40%;
+  height:100px;
   width:100px;
 }
 .ballbutton{
@@ -111,19 +110,21 @@ html,body{
 }
 .numberdice1container{
   width:100vw;
-  height:auto;
+  height:180px;
 }
 .numberdice2container{
   width:100vw;
-  height:auto;
+  height:180px;
+  margin-bottom:140px;
 }
 
 .worddicecontainer{
   width:100vw;
-  height:auto;
+  height:180px;
   margin-bottom: -30px;
 }
 .word1{
+  margin-left:40%;
   height:100px;
   width:100px;
 }
