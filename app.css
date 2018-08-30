@@ -19,35 +19,33 @@ html,body{
 }
 .dice{
   top: 20%;
-  margin-left:40%;
+  margin-left:37%;
   position: relative;
   height:100px;
   width:100px;
 }
 .dice1{
   top: 55%;
-  margin-left:40%;
+  margin-left:37%;
   position: relative;
   height:100px;
   width:100px;
 }
 .btn-roll{
-  margin-top: 20%;
-  margin-left: 5%;
+  margin-top: 11%;
   height:80px;
   width:100vw;
   background-color: whitesmoke;
 }
 .btn-roll1{
-  margin-top:30%;
+  margin-top:28%;
   margin-bottom:60px;
-  margin-left: 5%;
   height:80px;
   width:100vw;
   background-color: whitesmoke;
 }
 .btn-roll2{
-  margin-left: 5%;
+  margin-top: 1%;
   height:80px;
   width:100vw;
   background-color: whitesmoke;
@@ -97,13 +95,11 @@ html,body{
   height: 180px;
 }
 .ball1{
-  margin-left:40%;
+  margin-left:37%;
   height:100px;
   width:100px;
 }
 .ballbutton{
-  margin-top: -2%;
-  margin-left: 5%;
   height:80px;
   width:100vw;
   background-color: whitesmoke;
@@ -124,7 +120,7 @@ html,body{
   margin-bottom: -30px;
 }
 .word1{
-  margin-left:40%;
+  margin-left:37%;
   height:100px;
   width:100px;
 }
