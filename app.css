@@ -94,6 +94,7 @@ html,body{
   height: 20vh;
 }
 .ballcontainer{
+  overflow-y:visible;
   width:50vw;
   height:45vh;
 }
