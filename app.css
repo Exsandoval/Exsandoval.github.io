@@ -7,7 +7,7 @@ div{
   flex-flow:row wrap;
   align-content:flex-start;
   display:flex;
-  height:100vh;
+  height:80vh;
   width: 100vw;
   overflow-y:scroll;
   -webkit-overflow-scrolling: touch;
