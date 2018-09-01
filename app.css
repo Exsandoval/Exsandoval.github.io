@@ -30,15 +30,15 @@ a
 
 a:hover
 {
-  color: tomato;
+  color: #0084CC;
 }
 
 #menuToggle
 {
   display: block;
   position: relative;
-  top: 50px;
-  left: 50px;
+  top: 10px;
+  left: -120px;
 
   z-index: 1;
 
@@ -69,12 +69,12 @@ a:hover
 #menuToggle span
 {
   display: block;
-  width: 33px;
+  width: 32px;
   height: 4px;
   margin-bottom: 5px;
   position: relative;
 
-  background: #cdcdcd;
+  background: white;;
   border-radius: 3px;
 
   z-index: 1;
@@ -131,12 +131,12 @@ a:hover
 #menu
 {
   position: absolute;
-  width: 300px;
+  width: 100px;
   margin: -100px 0 0 -50px;
   padding: 50px;
-  padding-top: 125px;
+  padding-top: 100px;
 
-  background: #ededed;
+  background: white;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   /* to stop flickering of text in safari */
@@ -355,6 +355,18 @@ html,body{
     margin-top:-10vh;
      margin-left:-25px;
      margin-bottom: 70px;
+  }
+  #menuToggle
+  {
+    display: block;
+    position: relative;
+    top: 10px;
+    left: -270px;
+
+    z-index: 1;
+
+    -webkit-user-select: none;
+    user-select: none;
   }
 
 }
