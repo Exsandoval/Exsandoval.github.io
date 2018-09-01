@@ -2,7 +2,14 @@ div{
 
   align-items: center;
 }
-
+.logo{
+  background-image: url(seek.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height:100px;
+  align-self: center;
+  width:100px;
+}
 .contentcontainer{
   flex-flow:row wrap;
   align-content:flex-start;
@@ -85,12 +92,10 @@ html,body{
   font-weight: bold;
 }
 .rules{
-  background-image: url(seek.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  display: flex;
   color: white;
   overflow-y: visible;
-  align-items: center;
+  justify-content: center;
   text-decoration: none;
   font-weight: bold;
   position: relative;
