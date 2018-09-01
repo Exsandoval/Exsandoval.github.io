@@ -86,8 +86,9 @@ html,body{
 }
 .rules{
   background-image: url(seek.png);
+  background-size: contain;
   color: white;
-  overflow-y: scroll;
+  overflow-y: visible;
   text-decoration: none;
   font-weight: bold;
   position: relative;
