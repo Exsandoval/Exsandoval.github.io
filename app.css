@@ -3,9 +3,11 @@ div{
   align-items: center;
 }
 .logo{
+  position: relative;
   background-image: url(seek.png);
   background-size: contain;
   background-repeat: no-repeat;
+  margin-top: 10px;
   height:100px;
   align-self: center;
   width:100px;
