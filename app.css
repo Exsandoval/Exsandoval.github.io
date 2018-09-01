@@ -13,10 +13,8 @@ div{
   width:80px;
 }
 .btn-container{
-  background-color:white;
-  height:30vw;
+  height:16vh;
   width:50vw;
-  margin-bottom:20px;
 }
 .contentcontainer{
   flex-flow:row wrap;
