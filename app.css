@@ -7,10 +7,10 @@ div{
   background-image: url(seek.png);
   background-size: contain;
   background-repeat: no-repeat;
-  margin-top: 10px;
-  height:100px;
+  margin-top: 50px;
+  height:80px;
   align-self: center;
-  width:100px;
+  width:80px;
 }
 .contentcontainer{
   flex-flow:row wrap;
