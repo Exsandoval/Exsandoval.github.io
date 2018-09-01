@@ -1,4 +1,4 @@
-@media only screen and (min-height: 600px) {
+
 div{
 
   align-items: center;
@@ -168,7 +168,6 @@ html,body{
   margin-left:25%;
   height:120px;
   width:120px;
-}
 }
 @media only screen and (max-height: 500px) {
   .ballcontainer{
