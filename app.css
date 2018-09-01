@@ -170,3 +170,34 @@ html,body{
   width:120px;
 }
 }
+@media only screen and (max-height: 500px) {
+  .ballcontainer{
+    overflow-y:visible;
+    width:50vw;
+    height:20vh;
+    margin-bottom:70px;
+    margin-left:-25px;
+  }
+  .numberdice1container{
+    width:50vw;
+    height:30vh;
+     margin-left:-25px;
+     margin-bottom: 70px;
+  }
+  .numberdice2container{
+    width:50vw;
+    height:30vh;
+    margin-top:-10vh;
+     margin-left:-25px;
+     margin-bottom: 70px;
+  }
+
+  .worddicecontainer{
+    width:50vw;
+    height:30vh;
+    margin-top:-10vh;
+     margin-left:-25px;
+     margin-bottom: 70px;
+  }
+
+}
