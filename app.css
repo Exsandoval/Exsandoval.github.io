@@ -9,7 +9,7 @@
  * production code, beware of the browser
  * prefixes.
  */
-@media only screen and (min-width: 400px) {
+@media only screen and (max-width: 420px) {
 body
 {
   margin: 0;
@@ -160,6 +160,7 @@ a:hover
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
 }
 div{
   align-items: center;
@@ -327,7 +328,6 @@ html,body{
   margin-left:25%;
   height:120px;
   width:120px;
-}
 }
 @media only screen and (max-height: 500px) {
   .ballcontainer{
