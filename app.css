@@ -13,9 +13,10 @@ div{
   width:80px;
 }
 .btn-container{
-  background-color: white;
-  height:80px;
+  background-color:white;
+  height:30vw;
   width:50vw;
+  margin-bottom:20px;
 }
 .contentcontainer{
   flex-flow:row wrap;
@@ -112,7 +113,7 @@ html,body{
 .ballcontainer{
   overflow-y:visible;
   width:50vw;
-  height:45vh;
+  height:20vh;
 }
 .ball1{
   margin-left:25%;
