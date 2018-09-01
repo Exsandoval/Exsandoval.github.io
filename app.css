@@ -12,6 +12,10 @@ div{
   align-self: center;
   width:80px;
 }
+.btn-container{
+  height:80px;
+  width:50vw;
+}
 .contentcontainer{
   flex-flow:row wrap;
   align-content:flex-start;
