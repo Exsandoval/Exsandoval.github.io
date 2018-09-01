@@ -13,12 +13,13 @@ div{
   width:80px;
 }
 .btn-container{
-  height:16vh;
+  height:13vh;
   width:50vw;
 }
 .btn-container1{
-  height:40vh;
+  height:35vh;
   width:50vw;
+  margin-top:70px;
 }
 .contentcontainer{
   flex-flow:row wrap;
@@ -40,8 +41,8 @@ html,body{
 .dice{
   margin-left:25%;
   position: relative;
-  height:100px;
-  width:100px;
+  height:120px;
+  width:120px;
 }
 .dice1{
   margin-left:25%;
@@ -130,7 +131,7 @@ html,body{
 }
 .numberdice1container{
   width:50vw;
-  height:45vh;
+  height:30vh;
 }
 .numberdice2container{
   width:50vw;
