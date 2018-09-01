@@ -16,6 +16,10 @@ div{
   height:16vh;
   width:50vw;
 }
+.btn-container1{
+  height:16vh;
+  width:50vw;
+}
 .contentcontainer{
   flex-flow:row wrap;
   align-content:flex-start;
