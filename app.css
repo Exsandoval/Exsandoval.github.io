@@ -131,6 +131,7 @@ html,body{
   overflow-y:visible;
   width:50vw;
   height:20vh;
+  margin-bottom:5px;
 }
 .ball1{
   margin-left:25%;
