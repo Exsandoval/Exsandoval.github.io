@@ -87,13 +87,15 @@ html,body{
 .rules{
   background-image: url(seek.png);
   background-size: contain;
+  background-repeat: no-repeat;
   color: white;
   overflow-y: visible;
+  align-items: center;
   text-decoration: none;
   font-weight: bold;
   position: relative;
   width: 100vw;
-  height: 20vh;
+  height: 10vh;
 }
 .ballcontainer{
   overflow-y:visible;
