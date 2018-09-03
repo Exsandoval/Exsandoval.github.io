@@ -8,6 +8,7 @@
  * production code, beware of the browser
  * prefixes.
  */
+
 body
 {
   margin: 0;
@@ -368,4 +369,173 @@ html,body{
 
     -webkit-user-select: none;
     user-select: none;
+  }
+  @media only screen and (min-width: 500px) {
+    div{
+      align-items: center;
+    }
+    .logo{
+      position: relative;
+      background-image: url(neo.png);
+      background-size: contain;
+      background-repeat: no-repeat;
+      margin-top: 50px;
+      height:80px;
+      align-self: center;
+      width:80px;
+    }
+    .btn-container{
+      height:13vh;
+      width:50vw;
+    }
+    .btn-container1{
+      height:13vh;
+      width:50vw;
+      margin-top:-75px;
+    }
+    .btn-container2{
+      height:20vh;
+      width:50vw;
+    }
+    .btn-container3{
+      height:13vh;
+      width:50vw;
+    }
+    .contentcontainer{
+      flex-flow:row wrap;
+      align-content:flex-start;
+      display:flex;
+      height:100vh;
+      width: 100vw;
+      overflow-y:scroll;
+      -webkit-overflow-scrolling: touch;
+    }
+    html,body{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        padding: 0px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+    .dice{
+      margin-left:25%;
+      position: relative;
+      height:120px;
+      width:120px;
+    }
+    .dice1{
+      margin-left:25%;
+      position: relative;
+      height:120px;
+      width:120px;
+    }
+    .btn-roll{
+      display:block;
+      position:relative;
+      font-size:20px;
+      height:80px;
+      width:50vw;
+      background-color: white;
+    }
+    .btn-roll1{
+      display:block;
+      font-size:20px;
+      margin-top:-50px;
+      height:80px;
+      width:50vw;
+      background-color: white;
+    }
+    .btn-roll2{
+      display:block;
+      font-size:20px;
+      height:80px;
+      width:50vw;
+      background-color: white;
+      margin-top:-70px;
+
+    }
+    .title{
+      color: white;
+      background-color: BLACK;
+      width:100vw;
+      height:50px;
+      position: fixed;
+      text-align: center;
+      font-weight: bold;
+      z-index: 10;
+      top: 0;
+    }
+    .container{
+      background-image:linear-gradient(#A10606,#0084CC);
+      background-size: contain;
+      width:100vw;
+      background-color: white;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      -webkit-overflow-scrolling: touch;
+      height:100vh;
+    }
+    .rules h4{
+      font-size: 20px;
+      color: white;
+      text-align: center;
+    }
+    .rules p{
+      text-align:left;
+      font-size: 14px;
+      font-weight: bold;
+    }
+    .rules{
+      display: flex;
+      color: white;
+      overflow-y: visible;
+      justify-content: center;
+      text-decoration: none;
+      font-weight: bold;
+      position: relative;
+      width: 100vw;
+      height: 10vh;
+      margin-bottom:10px;
+    }
+    .ballcontainer{
+      overflow-y:visible;
+      width:50vw;
+      height:20vh;
+      margin-bottom:5px;
+      margin-left:-25px;
+    }
+    .ball1{
+      margin-left:25%;
+      height:130px;
+      width:130px;
+    }
+    .ballbutton{
+      font-size:20px;
+      height:80px;
+      width:50vw;
+      background-color: white;
+    }
+    .numberdice1container{
+      width:50vw;
+      height:30vh;
+       margin-left:-25px;
+    }
+    .numberdice2container{
+      width:50vw;
+      height:30vh;
+      margin-top:-10vh;
+       margin-left:-25px;
+    }
+    .worddicecontainer{
+      width:50vw;
+      height:30vh;
+      margin-top:-10vh;
+       margin-left:-25px;
+    }
+    .word1{
+      margin-left:25%;
+      height:120px;
+      width:120px;
+    }
   }
