@@ -302,6 +302,7 @@ html,body{
   height:20vh;
   margin-bottom:5px;
   margin-left:-25px;
+  margin-bottom: 10px;
 }
 .ball1{
   margin-left:25%;
@@ -318,18 +319,21 @@ html,body{
   width:50vw;
   height:30vh;
    margin-left:-25px;
+   margin-bottom: 10px;
 }
 .numberdice2container{
   width:50vw;
   height:30vh;
   margin-top:-10vh;
    margin-left:-25px;
+   margin-bottom: 10px;
 }
 .worddicecontainer{
   width:50vw;
   height:30vh;
   margin-top:-10vh;
    margin-left:-25px;
+   margin-bottom: 10px;
 }
 .word1{
   margin-left:25%;
